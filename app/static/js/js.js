@@ -13,3 +13,7 @@ function w3_open() {
 function w3_close() {
     mySidebar.style.display = "none";
 }
+
+
+//sslideshow
+w3.slideshow(".slides", 3000)

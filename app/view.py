@@ -3,5 +3,5 @@ from flask import render_template, url_for
 
 @app.route('/')
 def index():
-    name = "Бобруйский художественный музей"
-    return render_template('index.html', n=name)
+    title = "Главная"
+    return render_template('index.html', t=title)

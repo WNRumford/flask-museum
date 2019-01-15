@@ -19,5 +19,17 @@ body, html {
 
 .slide{
   width: 100%;
-  height: 500px
+  /*height: 500px;*/
+}
+
+.news_img{
+  width:70%;
+}
+
+.anew{
+  text-decoration: none;
+}
+
+.refimg{
+  margin: 10px;
 }

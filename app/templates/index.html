@@ -29,10 +29,21 @@
         
     </div>
     
-    <h2 class="w3-center fmt">{{ t }}</h2> <hr>
+    <h2 class="w3-center w3-text-blue fmt">{{ t }}</h2> <hr>
     
     <div class="w3-panel w3-xlarge">Последние новости:</div>
     
+</div>
+
+<div class="w3-container">
+{% for new in n %}
+    <div class="w3-panel w3-bottombar w3-hover-border-blue w3-center">
+        <img src="{{ new['img'] }}" class='news_img'>
+        <a href="#" class='anew'><h2 class='w3-text-indigo w3-hover-text-blue'>{{new['title']}}</h2></a>
+        <p><blockqute class='w3-text-indigo'>{{new['data']}}</blockqute></p>
+        <p>{{new['text']}}</p>
+    </div>
+{% endfor %}
 </div>
 
 {% endblock %}

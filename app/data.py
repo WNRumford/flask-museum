@@ -1,5 +1,3 @@
-from datetime import datetime
-
 news = [{
     'title':'Эфраим Севела: три четверти жизни',
     'text':'''На совместном семинаре Научно-исследовательского центра «Евреи России в Зарубежье и Израиле» и Дома учёных и специалистов Реховота, состоявшемся в Институте Вейцмана, мы отметили 90-летие со дня рождения Эфраима Севелы.
@@ -31,3 +29,15 @@ news = [{
         'data':'12/01/2019'
     }
 ]
+
+slideshow = [
+        ['static/img/header.jpg', 'Какой то текст', 'right'],
+        ["static/img/ind.jpg", 'Еще текст', 'left'],
+        ["static/img/museum.jpg", 'И еще другой текст', 'middle']
+    ]
+
+afishi = [
+        ['event1.jpg', 'Мероприятие №1', 'Hjgod jfgiopdmop jkbgiopdjkgo kjfgdp kjdpg kjhgpdkjh'],
+        ['event2.jpg', 'Мероприятие №2', 'Hjgod jfgiopdmop jkbgiopdjkgo kjfgdp kjdpg kjhgpdkjh'],
+        ['event3.jpg', 'Мероприятие №3', 'Hjgod jfgiopdmop jkbgiopdjkgo kjfgdp kjdpg kjhgpdkjh'],
+    ]

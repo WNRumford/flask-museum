@@ -19,12 +19,11 @@
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
   <div class="w3-bar w3-white w3-card" id="myNavbar">
-    <!--<a href="#home" class="w3-bar-item w3-button w3-wide">{{n}}</a>-->
     <!-- Right-sided navbar links -->
     <div class="w3-right w3-hide-small">
-      <a href="#" class="w3-bar-item w3-text-blue w3-button">Главная</a>
-      <a href="#" class="w3-bar-item w3-text-blue w3-button">Новости</a>
-      <a href="#" class="w3-bar-item w3-text-blue w3-button">Афиша</a>
+      <a href="{{url_for('index')}}" class="w3-bar-item w3-text-blue w3-button">Главная</a>
+      <a href="{{url_for('all_news')}}" class="w3-bar-item w3-text-blue w3-button">Новости</a>
+      <a href="{{url_for('afisha')}}" class="w3-bar-item w3-text-blue w3-button">Афиша</a>
       <a href="#" class="w3-bar-item w3-text-blue w3-button">Фотогалерея</a>
       <a href="#" class="w3-bar-item w3-text-blue w3-button">Цены и услуги</a>
       <a href="#" class="w3-bar-item w3-text-blue w3-button">Музейная лавка</a>
@@ -40,29 +39,15 @@
 <!-- Sidebar on small screens when clicking the menu icon -->
 <nav class="w3-sidebar w3-bar-block w3-black w3-opacity w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Закрыть ×</a>
-  <a href="#" onclick="w3_close()" class="w3-bar-item w3-button">Главная</a>
-  <a href="#" onclick="w3_close()" class="w3-bar-item w3-button">Новости</a>
-  <a href="#" onclick="w3_close()" class="w3-bar-item w3-button">Афиша</a>
+  <a href="{{url_for('index')}}" onclick="w3_close()" class="w3-bar-item w3-button">Главная</a>
+  <a href="{{url_for('all_news')}}" onclick="w3_close()" class="w3-bar-item w3-button">Новости</a>
+  <a href="{{url_for('afisha')}}" onclick="w3_close()" class="w3-bar-item w3-button">Афиша</a>
   <a href="#" onclick="w3_close()" class="w3-bar-item w3-button">Фотогалерея</a>
   <a href="#" onclick="w3_close()" class="w3-bar-item w3-button">Цены и услуги</a>
   <a href="#" onclick="w3_close()" class="w3-bar-item w3-button">Музейная лавка</a>
   <a href="#" onclick="w3_close()" class="w3-bar-item w3-button">О музее</a>
   <a href="#" onclick="w3_close()" class="w3-bar-item w3-button">Контакты</a>
 </nav>
-
-<!-- Header with full-height image -->
-<!--<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home" style='background-image: url("static/img/museum.jpg");'>-->
-<!--  <div class="w3-display-middle w3-blue" style="padding:15px">-->
-<!--    <p>{{ n }}</p>-->
-<!--  </div> -->
-<!--  <div class="w3-display-bottomright w3-text-white w3-large" style="padding:24px 48px">-->
-<!--    <i class="fab fa-facebook w3-hover-opacity"></i>-->
-<!--    <i class="fab fa-instagram w3-hover-opacity"></i>-->
-<!--    <i class="fab fa-vk	 w3-hover-opacity"></i>-->
-<!--    <i class="fab fa-viber w3-hover-opacity"></i>-->
-<!--  </div>-->
-<!--</header>-->
-
 
 {% block content %}
 

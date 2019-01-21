@@ -31,9 +31,9 @@ news = [{
 ]
 
 slideshow = [
-        ['static/img/header.jpg', 'Какой то текст', 'right'],
-        ["static/img/ind.jpg", 'Еще текст', 'left'],
-        ["static/img/museum.jpg", 'И еще другой текст', 'middle']
+        ['static/img/slideshow/header.jpg', 'Какой то текст', 'right'],
+        ["static/img/slideshow/ind.jpg", 'Еще текст', 'left'],
+        ["static/img/slideshow/museum.jpg", 'И еще другой текст', 'middle']
     ]
 
 afishi = [

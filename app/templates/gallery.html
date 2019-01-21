@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    {{ t }}
+{% endblock %}
+
+
+{% block content %}
+
+<div class="w3-container w3-center">
+    <h2 class="w3-center w3-text-blue tt">{{ t }}</h2> <hr>
+    
+    <div class="w3-center w3-card w3-light-grey w3-padding gc">
+        <h2 class='w3-text-indigo'>Фотоальбом за 2015 год</h2>
+        <img src="{{url_for('static', filename='img/gal/gal1/gal11.jpg')}}" class='gimg w3-hover-shadow'>
+        <p class="w3-button w3-block w3-blue w3-hover-indigo">Открыть</p>
+    </div>
+    
+    <div class="w3-center w3-card w3-light-grey w3-padding gc">
+        <h2 class='w3-text-indigo'>Фотоальбом за 2016 год</h2>
+        <img src="{{url_for('static', filename='img/gal/gal2/gal21.jpg')}}" class='gimg w3-hover-shadow'>
+        <p class="w3-button w3-block w3-blue w3-hover-indigo">Открыть</p>
+    </div>
+    
+</div>
+
+{% endblock %}

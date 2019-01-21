@@ -45,8 +45,20 @@ body, html {
   margin:40px auto;
 }
 
+
 /*картинка для афиши*/
 .aimg{
   width: 80%;
   max-width: 700px;
+}
+
+/*Карточка для галереи*/ 
+.gc{
+  width: 80%;
+  margin: 45px auto;
+}
+
+.gimg{
+  width: 90%;
+  max-width: 600px;
 }

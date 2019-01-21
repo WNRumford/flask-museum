@@ -20,3 +20,8 @@ def afisha():
     title = 'Афиша'
     af = afishi
     return render_template('afisha.html', t=title, af=af)
+
+@app.route('/gallery')
+def gallery():
+    title = 'Галерея'
+    return render_template('gallery.html', t=title)

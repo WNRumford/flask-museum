@@ -25,3 +25,9 @@ def afisha():
 def gallery():
     title = 'Галерея'
     return render_template('gallery.html', t=title)
+
+
+@app.route('/price')
+def price():
+    title = 'Цены и услуги'
+    return render_template('price.html', t = title)

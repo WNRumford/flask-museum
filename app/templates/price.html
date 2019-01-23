@@ -1,0 +1,66 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    {{ t }}
+{% endblock %}
+
+{% block content %}
+
+<div class="w3-container">
+    <h2 class="w3-center w3-text-blue tt">{{ t }}</h2> <hr>
+    
+    <div class='w3-panel w3-center'>
+        <h3 class='w3-text-indigo'>Мы рады предложить Вам следующие услуги услуги:</h3>
+        
+        <table class="w3-table-all w3-hoverable w3-card">
+            <thead>
+                <tr class="w3-light-grey">
+                    <th>Наименование услуги</th>
+                    <th>Цена</th>
+                </tr>
+            </thead>
+            <tr>
+                <td>Просмотр экспозиции</td>
+                <td>5 BYN</td>
+            </tr>
+            <tr>
+                <td>Экскурсия по залу с гидом</td>
+                <td>5 BYN</td>
+            </tr>
+            <tr>
+                <td>Групповая экскурсия для детей</td>
+                <td>3 BYN</td>
+            </tr>
+            <tr>
+                <td>Горячие бутерброды</td>
+                <td>25 BYN</td>
+            </tr>
+        </table>
+        <div class="w3-panel">
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+        sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+        magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+        quis nostrud exerci tation ullamcorper suscipit lobortis nisl
+        ut aliquip ex ea commodo consequat. Duis autem vel eum iriure
+        dolor in hendrerit in vulputate velit esse molestie consequat,
+        vel illum dolore eu feugiat nulla facilisis at vero eros et
+        accumsan et iusto odio dignissim qui blandit praesent luptatum
+        zzril delenit augue duis dolore te feugait nulla facilisi.
+        Nam liber tempor cum soluta nobis eleifend option congue
+        nihil imperdiet doming id quod mazim placerat facer possim
+        assum. Typi non habent claritatem insitam; est usus legentis
+        in iis qui facit eorum claritatem. Investigationes
+        demonstraverunt lectores legere me lius quod ii legunt saepius.
+        Claritas est etiam processus dynamicus, qui sequitur mutationem
+        consuetudium lectorum. Mirum est notare quam littera gothica,
+        quam nunc putamus parum claram, anteposuerit litterarum formas
+        humanitatis per seacula quarta decima et quinta decima. Eodem
+        modo typi, qui nunc nobis videntur parum clari, fiant sollemnes
+        in futurum.
+        </div>
+    </div>
+    
+</div>
+
+
+{% endblock %}

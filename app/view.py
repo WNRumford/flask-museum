@@ -31,3 +31,19 @@ def gallery():
 def price():
     title = 'Цены и услуги'
     return render_template('price.html', t = title)
+
+@app.route('/store')
+def store():
+    title = 'Музейная лавка'
+    return render_template('store.html', t = title)
+
+
+@app.route('/about')
+def about():
+    title = 'О музее'
+    return render_template('about.html', t = title)
+
+@app.route('/contacts')
+def contacts():
+    title = 'Контакты'
+    return render_template('contacts.html', t = title)

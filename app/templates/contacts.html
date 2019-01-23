@@ -1,0 +1,71 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    {{ t }}
+{% endblock %}
+
+{% block content %}
+
+<div class="w3-container">
+    <h2 class="w3-center w3-text-blue tt">{{ t }}</h2> <hr>
+    
+    <div class="w3-container">
+        <table class="w3-table w3-bordered w3-centered w3-hoverable">
+            <tr>
+                <th><i class="w3-xlarge fas fa-landmark"></i></th>
+                <th>Наш адрес:</th>
+                <th>г.Бобруйск, ул. Социалистическая 42А</th>
+            </tr>
+            <tr>
+                <th><i class="w3-xlarge fas fa-phone"></i></th>
+                <th>Наш телефон:</th>
+                <th>80225 88 88 88 </th>
+            </tr>
+             <tr>
+                <th><i class="w3-xlarge fas fa-envelope"></i></th>
+                <th>Наш E-mail:</th>
+                <th>artbobruysk@mail.ru</th>
+            </tr>
+        </table>
+    </div>
+    
+    <!--Form-->
+    <form class="w3-container w3-card-4 w3-light-grey w3-text-blue w3-margin">
+<h2 class="w3-center">Форма обратной связи</h2>
+ 
+<div class="w3-row w3-section">
+  <div class="w3-col" style="width:50px"><i class="w3-xxlarge fas fa-user"></i></div>
+    <div class="w3-rest">
+      <input class="w3-input w3-border" name="first" type="text" placeholder="Имя">
+    </div>
+</div>
+
+<div class="w3-row w3-section">
+  <div class="w3-col" style="width:50px"><i class="w3-xxlarge fas fa-user"></i></div>
+    <div class="w3-rest">
+      <input class="w3-input w3-border" name="last" type="text" placeholder="Фамилия">
+    </div>
+</div>
+
+<div class="w3-row w3-section">
+  <div class="w3-col" style="width:50px"><i class="w3-xxlarge fas fa-envelope"></i></div>
+    <div class="w3-rest">
+      <input class="w3-input w3-border" name="email" type="text" placeholder="Email">
+    </div>
+</div>
+
+<div class="w3-row w3-section">
+  <div class="w3-col" style="width:50px"><i class="w3-xxlarge fas fa-pencil-alt"></i></div>
+    <div class="w3-rest">
+      <textarea class="w3-input w3-border" name="message" type="text" placeholder="Сообщение"></textarea>
+    </div>
+</div>
+
+<p class="w3-center">
+<button class="w3-button w3-section w3-blue w3-hover-indigo w3-ripple"> Отправить </button>
+</p>
+</form>
+    
+</div>
+
+{% endblock %}

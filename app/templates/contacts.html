@@ -31,40 +31,51 @@
     
     <!--Form-->
     <form class="w3-container w3-card-4 w3-light-grey w3-text-blue w3-margin">
-<h2 class="w3-center">Форма обратной связи</h2>
+      <h2 class="w3-center">Форма обратной связи</h2>
  
-<div class="w3-row w3-section">
-  <div class="w3-col" style="width:50px"><i class="w3-xxlarge fas fa-user"></i></div>
-    <div class="w3-rest">
-      <input class="w3-input w3-border" name="first" type="text" placeholder="Имя">
+    <div class="w3-row w3-section">
+      <div class="w3-col" style="width:50px"><i class="w3-xxlarge fas fa-user"></i></div>
+        <div class="w3-rest">
+          <input class="w3-input w3-border" name="first" type="text" placeholder="Имя">
+        </div>
     </div>
-</div>
 
-<div class="w3-row w3-section">
-  <div class="w3-col" style="width:50px"><i class="w3-xxlarge fas fa-user"></i></div>
-    <div class="w3-rest">
-      <input class="w3-input w3-border" name="last" type="text" placeholder="Фамилия">
+    <div class="w3-row w3-section">
+      <div class="w3-col" style="width:50px"><i class="w3-xxlarge fas fa-user"></i></div>
+        <div class="w3-rest">
+          <input class="w3-input w3-border" name="last" type="text" placeholder="Фамилия">
+        </div>
     </div>
-</div>
 
-<div class="w3-row w3-section">
-  <div class="w3-col" style="width:50px"><i class="w3-xxlarge fas fa-envelope"></i></div>
-    <div class="w3-rest">
-      <input class="w3-input w3-border" name="email" type="text" placeholder="Email">
+    <div class="w3-row w3-section">
+      <div class="w3-col" style="width:50px"><i class="w3-xxlarge fas fa-envelope"></i></div>
+        <div class="w3-rest">
+          <input class="w3-input w3-border" name="email" type="text" placeholder="Email">
+        </div>
     </div>
-</div>
 
-<div class="w3-row w3-section">
-  <div class="w3-col" style="width:50px"><i class="w3-xxlarge fas fa-pencil-alt"></i></div>
-    <div class="w3-rest">
-      <textarea class="w3-input w3-border" name="message" type="text" placeholder="Сообщение"></textarea>
+    <div class="w3-row w3-section">
+      <div class="w3-col" style="width:50px"><i class="w3-xxlarge fas fa-pencil-alt"></i></div>
+        <div class="w3-rest">
+          <textarea class="w3-input w3-border" name="message" type="text" placeholder="Сообщение"></textarea>
+        </div>
     </div>
-</div>
 
-<p class="w3-center">
-<button class="w3-button w3-section w3-blue w3-hover-indigo w3-ripple"> Отправить </button>
-</p>
-</form>
+    <p class="w3-center">
+    <button class="w3-button w3-section w3-blue w3-hover-indigo w3-ripple"> Отправить </button>
+    </p>
+  </form> <hr>
+
+<!--Google Map-->
+  <div class="w3-container w3-margin w3-border">
+    <div id="googleMap"></div>
+  </div>
+
+<!--javaScripts for map -->
+
+<script type="text/javascript" src="static/js/map.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCiB02j1yVsX-qZqdWxmJyP6SyoKFMn-gs&callback=myMap">
+</script>
     
 </div>
 

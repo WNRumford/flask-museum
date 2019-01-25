@@ -46,4 +46,5 @@ def about():
 @app.route('/contacts')
 def contacts():
     title = 'Контакты'
+    # m = mapa
     return render_template('contacts.html', t = title)

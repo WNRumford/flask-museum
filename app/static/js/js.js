@@ -16,4 +16,4 @@ function w3_close() {
 
 
 //sslideshow
-w3.slideshow(".slides", 3000)
+// w3.slideshow(".slides", 3000)
